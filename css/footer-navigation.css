@@ -1,0 +1,71 @@
+.footer-navigation {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: var(--back2);
+    inline-size: auto;
+    block-size: 14rem;
+}
+
+.principal-navigation {
+    display: flex;
+    justify-content: space-evenly;
+    inline-size: 78.5rem;
+    margin: auto;
+}
+
+.principal-navigation .three-div {
+    display: flex;
+}
+
+div .footer-top {
+    color: var(--gray30);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+
+div .footer-top:hover {
+    text-decoration: underline;
+}
+
+.ultimate-list li {
+    list-style: none;
+}
+
+.ultimate-list  a {
+    color: var(--light30);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    text-decoration: none;
+}
+
+.ultimate-list  a:hover {
+    text-decoration: underline;
+}
+
+.duo-content {
+    margin-bottom: 2rem;
+}
+
+.duo-content .duo-final {
+    color: var(--gray30);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+.u-div {
+    text-align: center;
+}
+
+.u-div .ultimate-text {
+    color: var(--light30);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+}

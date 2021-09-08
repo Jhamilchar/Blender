@@ -1,0 +1,14 @@
+.section {
+    background-image: url("../images/blender.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    block-size: 30rem;
+    inline-size: 78.5rem;
+}
+
+.content-list {
+    inline-size: 78.5rem;
+    block-size: 30rem;
+    margin: auto;
+    cursor: pointer;
+}

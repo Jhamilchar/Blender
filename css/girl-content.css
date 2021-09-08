@@ -1,0 +1,139 @@
+.side-content {
+    background-color: var(--blackblue);
+    block-size: 55.9375rem;
+}
+
+.light-girl {
+    background-image: url("../images/back-light_girl.jpg");
+    background-repeat: no-repeat;
+    inline-size: 78.5rem;
+    block-size: 55.9375rem;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.top-left {
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.mini-top .sub-tittle {
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    color: var(--white);
+    margin-top: 2.5rem;
+}
+
+.mini-top a {
+    font-size: 2.18rem;
+    font-weight: 400;
+    line-height: 3.31rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.mini-top a:hover {
+    text-decoration: underline;
+}
+
+div .top-text {
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+div .top-text-1 {
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.text-alone li {
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    color: var(--white);
+    margin: 0.3125rem 0 0 0.625rem;
+    list-style: none;
+}
+
+.text-alone .right {
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    color: var(--white);
+    margin: 0.3125rem 0 0 0.625rem;
+    padding-left: 1rem;
+    list-style: none;
+}
+
+div .ultimate-space {
+    margin-bottom: 2rem;
+}
+
+div .subscribe {
+    background-color: transparent;
+    border: none;
+    border-radius: .3rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.25rem 2.10rem;
+    margin-top: 1rem;
+    margin-right: 1.56rem;
+    white-space: nowrap;
+    background-color: #13b6fb;
+    -webkit-box-shadow: 0 4px 0 0 #04a7eb;
+    box-shadow: 0 4px 0 0 #04a7eb;
+}
+
+.three-div {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.three-div .box3 {
+    background: var(--white);
+    margin: 0.625rem;
+    border-radius: 1rem;
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+}
+
+.box3 h3 {
+    padding: 0.9375rem 1.25rem;
+    color: var(--gray60);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.box3 p {
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.4rem ;
+    color: var(--gray60);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.box3 a {
+    padding-left: 13.125rem;
+    color: var(--lightblue);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+
+.box3 a:hover {
+    text-decoration: underline;
+}

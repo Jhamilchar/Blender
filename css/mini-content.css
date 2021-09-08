@@ -1,0 +1,67 @@
+.mini-about_involved {
+    background: var(--back);
+    inline-size: 100%;
+    block-size: 17rem;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.mini-content {
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    inline-size: 74rem;
+    block-size: 14rem;
+    margin: auto;
+    
+}
+
+.box {
+    box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,rgba(0,0,0,0.025) 0px 15px 20px -1px;
+    background-color: #fff;
+    border-radius: .6rem;
+    inline-size: 31rem;
+    block-size: 14rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box a {
+    text-decoration: none;
+    color: var(--gray20);
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2rem;
+    border-bottom: 2px solid rgba(235,94,40,0.8);
+    padding-bottom: 1rem;
+    width: 35px;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+.box p {
+    color: var(--gray20);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.box div a {
+    color: var(--gray20);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-decoration: underline;
+    margin-right: .5rem;
+    border-bottom: none;
+}
+
+.box div a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+
+}

@@ -1,0 +1,188 @@
+@import "./css/image.css";
+@import "./css/list.css";
+@import "./css/download.css";
+@import "./css/mini-content.css";
+@import "./css/big-content.css";
+@import "./css/large-content.css";
+@import "./css/blue-content.css";
+@import "./css/girl-content.css";
+@import "./css/small-content.css";
+@import "./css/footer-navigation.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Oxygen,Ubuntu,Cantarell,"Open Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+:root{
+    font-size: 14px;
+    --primary: #9db1b9;
+    --white: #FFFFFF;
+    --blackblue: #030e2e;
+    --gray10: #6c757d;
+    --gray20: #4D4E53;
+    --gray30: #646469;
+    --gray40: #494f54;
+    --gray60: #343a40;
+    --back10: #EFEFEF;
+    --light10: #6C757D;
+    --light20: #646469;
+    --light30: #9E9FA2;
+    --black: #000000;
+    --back: #f8f8f8;
+    --back2: #DFDFDF;
+    --lightblue: #13b6fb;
+}
+
+@media screen and (min-width: 768px) {
+    :root{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    :root{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content-inter {
+        flex-direction: column;
+    }
+
+    .cont-principal {
+        margin-top: 2rem;
+    }
+    .elements {
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    .elements-link {
+        padding-bottom: 1rem;
+    }
+    .elements-button {
+        padding-top: .5rem;
+    }
+
+    .mini-about_involved {
+        block-size: 30rem;
+    }
+
+    .mini-content {
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .mini-content .box {
+        margin: 2rem 0;
+    }
+
+    .content-column {
+        text-align: center;
+        block-size: 116rem;
+    }
+    .information-row .position-dual {
+        flex-direction: column;
+    } 
+
+    .position-dual .box-1 {
+        margin: 1rem;
+    }
+
+    .pair {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .odd {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .large-content {
+        block-size: 250rem;
+    }
+
+    .light-girl {
+        block-size: 80rem;
+    }
+    
+    .three-div {
+        flex-wrap: wrap;
+    }
+
+    .duo {
+        margin-top: 24.625rem;
+    }
+
+    .content-center {
+        padding-top: 25rem;
+    }
+
+}
+
+.content-top {
+    inline-size: 78.5rem;
+    block-size: 3.40rem;
+    margin: auto;
+}
+
+.content-inter {
+    padding: 0 0.9375rem;
+    margin: 0 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("./svg/descarga.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    block-size: 4rem;
+    margin-right: auto;
+    transition: opacity 150ms ease-in-out;
+    width: 9rem;
+}
+
+.list-content {
+    display: flex;
+    font-size: .9rem;    
+    font-weight: 400;
+}
+
+.list-content li{
+    list-style: none;
+}
+
+.list-content li a{
+    text-decoration: none;
+    padding: 20px 16px;
+    color: var(--gray10);
+    
+}
+
+.list-content li a:hover {
+    color: var(--primary);
+    transition: 0.1s;
+    border-bottom: 3px var(--primary) solid;
+}
+
+.list-content_unic 
+.list-item_unic a{
+    border-radius: 0.5rem;
+    background: var(--primary);
+    color: var(--white);
+    box-shadow: 0 4px 0 0 var(--primary);
+    padding: 9px 20px;
+    padding-left: 55px;
+}
+
+.list-content_row {
+    display: flex;
+    align-items: center;  
+}
