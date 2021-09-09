@@ -48,10 +48,18 @@
 }
 
 @media screen and (max-width: 1200px) {
+    :root {
+        font-size: 10px;
+    }
     .section {
         inline-size: fit-content;
         margin-top: 3.2rem;
     }
+
+    .large-content{
+        inline-size: fit-content;
+    }
+
     .content-inter {
         flex-direction: column;
     }
@@ -136,6 +144,7 @@
 
     .content-center {
         padding-top: 25rem;
+        inline-size: auto;
     }
 
 }
