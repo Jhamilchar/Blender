@@ -14,7 +14,7 @@
 .cont-secundary {
     background-color: black;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     margin-top: 12rem;
     margin-bottom: 0.4rem;
 }
@@ -31,14 +31,14 @@
     -webkit-text-fill-color: transparent;
     z-index: 1;
     font-size: 3.2rem;
-    line-height: 58px;
+    line-height: 3.625rem;
     font-weight: 400;
 } 
 
 .cont-secundary-1 {
     background-color: black;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
 }
 
 .cont-principal
@@ -53,6 +53,6 @@
     -webkit-text-fill-color: transparent;
     z-index: 1;
     font-size: 1.2rem;
-    line-height: 27px;
+    line-height: 1.6875rem;
     font-weight: 400;
 }

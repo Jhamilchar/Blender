@@ -52,7 +52,6 @@
         font-size: 10px;
     }
     .section {
-        inline-size: fit-content;
         margin-top: 3.2rem;
     }
 
@@ -145,6 +144,164 @@
     .content-center {
         padding-top: 25rem;
         inline-size: auto;
+    }
+
+    .duo {
+        flex-direction: column;
+        margin: 3rem auto;
+        justify-content: space-evenly; 
+    }
+    
+    .gray a {
+        padding: 0;
+    }
+
+    .blue a {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 807px) {
+    :root {
+        font-size: 5px;
+    }
+    .section {
+        margin-top: 3.2rem;
+    }
+
+    .large-content{
+        inline-size: fit-content;
+    }
+
+    .content-inter {
+        flex-direction: column;
+    }
+
+    .cont-principal {
+        margin-top: 2rem;
+    }
+    .elements {
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    .elements-link {
+        padding-bottom: 1rem;
+    }
+    .elements-button {
+        padding-top: .5rem;
+    }
+
+    .mini-about_involved {
+        block-size: 30rem;
+    }
+
+    .mini-content {
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .mini-content .box {
+        margin: 2rem 0;
+    }
+
+    .content-column {
+        text-align: center;
+        block-size: 116rem;
+    }
+    .information-row .position-dual {
+        flex-direction: column;
+    } 
+
+    .position-dual .box-1 {
+        margin: 1rem;
+    }
+
+    .odd .all-text_apart {
+        padding: 1.8rem 0;
+    }
+
+    .pair .all-text {
+        padding: 1.8rem 0;
+    }
+
+    .all-text_apart .dual{
+        padding: 0;
+    }
+
+    .pair {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .odd {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .large-content {
+        block-size: 250rem;
+    }
+
+    .light-girl {
+        block-size: 80rem;
+    }
+    
+    .three-div {
+        flex-wrap: wrap;
+    }
+
+    .duo {
+        margin-top: 24.625rem;
+    }
+
+    .content-center {
+        padding-top: 25rem;
+        inline-size: auto;
+    }
+
+    .duo {
+        flex-direction: column;
+        margin: 3rem auto;
+        justify-content: space-evenly; 
+    }
+    
+    .gray a {
+        padding: 0;
+    }
+
+    .blue a {
+        margin: 0;
+    }
+
+    .blend-dev 
+    .information-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-column {
+        block-size: auto;
+    }
+
+    .top-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three-div {
+        justify-content: center;
+    }
+
+    .footer-navigation {
+        block-size: auto;
+    }
+
+    .principal-navigation {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
