@@ -9,9 +9,24 @@
 
 .principal-navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     inline-size: 78.5rem;
     margin: auto;
+}
+
+.footer-duo {
+    display: flex;
+}
+.footer-duo div {
+    padding: 0 2rem;
+}
+
+.footer-duo_left {
+    display: flex;
+}
+
+.footer-duo_left div {
+    padding: 0 2rem;
 }
 
 .principal-navigation .three-div {

@@ -6,13 +6,21 @@
     <link rel="stylesheet" href="index.css">
     <title>Blender - Home of the Blender project - Free and Open 3D Creation Software</title>
     <link rel="shortcut icon" href="https://www.blender.org/wp-content/themes/bthree/assets/images/favicon.ico?x26487">
+    <script src="https://kit.fontawesome.com/408964c6ae.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="banner">
         <div class="content-top">
             <div class="content-inter">
                 <div class="banner-logo">
-                    <a class="logo" href="https://www.blender.org" title="Go to blender.org"></a>
+                    <div>
+                        <a class="logo" href="https://www.blender.org" title="Go to blender.org"></a>
+                    </div>
+                    <div>
+                        <button class="toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
                 </div>
                 <nav class="list-content">
                     <ul class="list-content_row">
@@ -471,114 +479,120 @@
     </div>
     <footer class="footer-navigation">
         <div class="principal-navigation">
-            <div>
-                <a class="footer-top" href="#">Blender</a>
-                <ul class="ultimate-list">
-                    <li>
-                        <a href="#">Download</a>
-                    </li>
-                    <li>
-                        <a href="#">Features</a>
-                    </li>
-                    <li>
-                        <a href="#">Source</a>
-                    </li>
-                    <li>
-                        <a href="#">License</a>
-                    </li>
-                    <li>
-                        <a href="#">Logo & Trademark</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a class="footer-top" href="##">Organization</a>
-                <ul class="ultimate-list">
-                    <li>
-                        <a href="#">Foundation</a>
-                    </li>
-                    <li>
-                        <a href="#">Institute</a>
-                    </li>
-                    <li>
-                        <a href="#">Studio</a>
-                    </li>
-                    <li>
-                        <a href="#">Blender Conference</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a class="footer-top" href="##">Get Involved</a>
-                <ul class="ultimate-list">
-                    <li>
-                        <a href="#">Donate</a>
-                    </li>
-                    <li>
-                        <a href="#">Development</a>
-                    </li>
-                    <li>
-                        <a href="#">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="#">Education</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a class="footer-top" href="##">Support</a>
-                <ul class="ultimate-list">
-                    <li>
-                        <a href="#">Community</a>
-                    </li>
-                    <li>
-                        <a href="#">Manual</a>
-                    </li>
-                    <li>
-                        <a href="#">Tutorials</a>
-                    </li>
-                    <li>
-                        <a href="#">Python API</a>
-                    </li>
-                    <li>
-                        <a href="#">Developers Forum</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a class="footer-top" href="##">blender.org</a>
-                <ul class="ultimate-list">
-                    <li>
-                        <a href="#">News</a>
-                    </li>
-                    <li>
-                        <a href="#">Jobs</a>
-                    </li>
-                    <li>
-                        <a href="#">Website</a>
-                    </li>
-                    <li>
-                        <a href="#">Open Data</a>
-                    </li>
-                    <li>
-                        <a href="#">Development Fund</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div class="duo-content">
-                    <a class="duo-final" href="#">Follow Blender</a>
+            <div class="footer-duo">   
+                <div>
+                    <a class="footer-top" href="#">Blender</a>
+                    <ul class="ultimate-list">
+                        <li>
+                            <a href="#">Download</a>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Source</a>
+                        </li>
+                        <li>
+                            <a href="#">License</a>
+                        </li>
+                        <li>
+                            <a href="#">Logo & Trademark</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="duo-content">
-                    <a class="duo-final" href="#">Development News</a>
+                <div>
+                    <a class="footer-top" href="##">Organization</a>
+                    <ul class="ultimate-list">
+                        <li>
+                            <a href="#">Foundation</a>
+                        </li>
+                        <li>
+                            <a href="#">Institute</a>
+                        </li>
+                        <li>
+                            <a href="#">Studio</a>
+                        </li>
+                        <li>
+                            <a href="#">Blender Conference</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="footer-top" href="##">Get Involved</a>
+                    <ul class="ultimate-list">
+                        <li>
+                            <a href="#">Donate</a>
+                        </li>
+                        <li>
+                            <a href="#">Development</a>
+                        </li>
+                        <li>
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#">Education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-duo_left">
+
+                <div>
+                    <a class="footer-top" href="##">Support</a>
+                    <ul class="ultimate-list">
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                        <li>
+                            <a href="#">Manual</a>
+                        </li>
+                        <li>
+                            <a href="#">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="#">Python API</a>
+                        </li>
+                        <li>
+                            <a href="#">Developers Forum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="footer-top" href="##">blender.org</a>
+                    <ul class="ultimate-list">
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#">Website</a>
+                        </li>
+                        <li>
+                            <a href="#">Open Data</a>
+                        </li>
+                        <li>
+                            <a href="#">Development Fund</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="duo-content">
+                        <a class="duo-final" href="#">Follow Blender</a>
+                    </div>
+                    <div class="duo-content">
+                        <a class="duo-final" href="#">Development News</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="u-div">
-            <p class="ultimate-text">
-                Artistic freedom starts with BlenderThe Free and Open Source 3D Creation Suite
-            </p>
-        </div>
+            <div class="u-div">
+                <p class="ultimate-text">
+                    Artistic freedom starts with BlenderThe Free and Open Source 3D Creation Suite
+                </p>
+            </div>
     </footer>
 </body>
 </html>
