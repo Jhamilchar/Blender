@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     block-size: auto;
+    inline-size: 100%;
 }
 
 
@@ -14,6 +15,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.content-center >* {
+    margin: 3rem 0;
 }
 
 .alone-top {
