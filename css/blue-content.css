@@ -8,10 +8,11 @@
 
 .center-blue {
     inline-size: 32.5rem;
-    block-size: 19.5rem;
+    block-size: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .title-top {
@@ -21,7 +22,6 @@
     color: var(--gray20);
     text-decoration: none;
     padding: .625rem 0 1.5rem;
-    margin-top: 30%;
 }
 
 .title-top:hover {
@@ -37,6 +37,9 @@
 }
 
 .dual-link .unic {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.375rem;
     background-color: transparent;
     border: none;
     border-radius: .3rem;
@@ -56,6 +59,9 @@
 }
 
 .dual-link .unic-1 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.375rem;
     background-color: transparent;
     border: none;
     border-radius: .3rem;

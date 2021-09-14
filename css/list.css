@@ -1,13 +1,8 @@
-.content-list {
-    z-index: 9999;
-    margin-top: 0.6rem;
-}
-
 .cont-principal {
     display: flex;
     flex-direction: column;
     inline-size: 71.5rem;
-    block-size: 9rem;
+    block-size: 18rem;
     margin: auto;
 }
 

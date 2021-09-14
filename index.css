@@ -1,4 +1,4 @@
-@import "./css/image.css";
+@import "./css/section.css";
 @import "./css/list.css";
 @import "./css/download.css";
 @import "./css/mini-content.css";
@@ -13,10 +13,11 @@
     margin: 0;
     padding: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Oxygen,Ubuntu,Cantarell,"Open Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    box-sizing: border-box;
 }
 
 :root{
-    font-size: 14px;
+    font-size: 16px;
     --primary: #13b6fb;
     --white: #FFFFFF;
     --blackblue: #030e2e;
@@ -35,640 +36,1153 @@
     --lightblue: #13b6fb;
 }
 
-@media screen and (min-width: 768px) {
-    :root{
-        font-size: 16px;
-    }
-}
-
-@media screen and (min-width: 1367px) {
+@media screen and (min-width: 1440px) {
     :root{
         font-size: 18px;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1265px) {
     :root {
-        font-size: 10px;
-    }
-
-    .large-content{
-        inline-size: fit-content;
-    }
-
-    .content-inter {
-        flex-direction: row;
-    }
-
-    .cont-principal {
-        margin-top: 2rem;
-    }
-    .elements {
-        flex-direction: column;
-        height: 8rem;
-    }
-
-    .elements-link {
-        padding-bottom: 1rem;
-    }
-    .elements-button {
-        padding-top: .5rem;
-    }
-
-    .mini-about_involved {
-        block-size: 30rem;
-    }
-
-    .mini-content {
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-
-    .mini-content .box {
-        margin: 2rem 0;
-    }
-
-    .content-column {
-        text-align: center;
-        block-size: 116rem;
-    }
-    .information-row .position-dual {
-        flex-direction: column;
-    } 
-
-    .position-dual .box-1 {
-        margin: 1rem;
-    }
-
-    .odd .all-text_apart {
-        padding: 1.8rem 0;
-    }
-
-    .pair .all-text {
-        padding: 1.8rem 0;
-    }
-
-    .all-text_apart .dual{
-        padding: 0;
-    }
-
-    .pair {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .odd {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .large-content {
-        block-size: 250rem;
+        font-size: 14px;
     }
 
     .light-girl {
-        block-size: 80rem;
-    }
-    
-    .three-div {
-        flex-wrap: wrap;
-    }
-
-    .duo {
-        margin-top: 24.625rem;
-    }
-
-    .content-center {
-        padding-top: 25rem;
-        inline-size: auto;
-    }
-
-    .duo {
-        flex-direction: column;
-        margin: 3rem auto;
-        justify-content: space-evenly; 
-    }
-    
-    .gray a {
-        padding: 0;
-    }
-
-    .blue a {
-        margin: 0;
+        inline-size: 100%;
     }
 }
 
-@media screen and (max-width: 807px) {
+@media screen and (max-width: 1120px) {
+    :root {
+        font-size: 13.4px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .banner {
+        block-size: 4.5rem;
+    }
+
+    .content-top {
+        block-size: 4.5em !important;
+        padding: 0 2rem !important;
+    }
+
+    .logo {
+        inline-size: 12rem !important;
+        block-size:3.3rem !important;
+    }
+
+    .list-item .nav-list {
+        padding: 1.4rem 1.2rem !important;
+        font-size: 1.2rem !important;
+        font-weight: 400 !important;
+        line-height: 1.1rem !important;
+    }
+
+    .list-item_unic .item-unic {
+        padding: 0.8rem 3rem !important;
+    }
+
+    .content-list {
+        block-size: 20rem;
+    }
+
+     span .cont-secundary {
+        margin-top: 6rem;
+    }
+
+    .cont-secundary a {
+        font-size: 3.8rem !important;   
+    }
+
+    .cont-secundary-1 a {
+        font-size: 1.5rem !important;
+    }
+
+    .elements {
+        block-size: 6rem !important;
+    }
+    
+    .elements-link a {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1rem;
+    } 
+
+    .elements-button a {
+        padding: .9rem 3rem;
+        margin: 0 3.6rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    .mini-about_involved {
+        block-size: 26rem;
+    }
+
+    .mini-content {
+        justify-content: space-between;
+    }
+
+    .box {
+        inline-size: 35.7rem;
+        block-size: 22rem;
+    }
+
+    .box a {
+        font-size: 2.3rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    .box p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    .box div a {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    .box-1 {
+        inline-size: 19rem;
+        block-size: 25rem;
+    }
+
+    .information-row div img {
+        block-size: 11rem;
+    }
+
+    .blend-dev .tittle {
+        margin-left: -3.8rem;
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+    }
+
+    .box-1 .mini-h2 {
+        font-weight: 600;
+        line-height: 1.7rem;
+        font-size: 1.7rem;
+    }
+
+    .box-1 .text-middle{
+        font-weight: 400;
+        line-height: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .box-1 .read {
+        font-weight: 700;
+        line-height: 1.7rem;
+        font-size: .1.2rem;
+    }
+
+
+    /* large-content */
+
+    .alone-top a {
+        font-size: 3rem;
+    }
+
+    .principal-tittle {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+    .sub-tittle {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .large-list li {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .side-image img {
+        inline-size: 37rem;
+        block-size: 23rem
+    }
+
+    /* Center blue */
+
+    .paintings {
+        block-size: 40rem;
+    }
+
+    .title-top {
+        font-size: 2.8rem;
+        font-weight: 400;
+        line-height: 3.8rem;
+    }
+
+    .text-middle {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .dual-link .unic {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.375rem;
+    }
+
+    .dual-link .unic-1 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.375rem;
+    }
+
+    /* Girl-content */ 
+
+    .top-left {
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
+
+    .mini-top a {
+        font-size: 2.7rem;
+        font-weight: 400;
+        line-height: 3.7rem;
+    }
+
+    .mini-top .sub-tittle {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    div .top-text {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    div .top-text-1 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }   
+
+    .text-alone li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .text-alone .right {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    div .subscribe {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+    }
+
+    .three-div .box3 {
+        margin: 2rem 0.625rem 3rem;
+        border-radius: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 3.8rem;
+    }
+
+    .box3 h3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.9rem;
+    }
+
+    .box3 p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    .box3 a {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.2rem;
+    }
+
+    /* Small content */
+
+    .gray a {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.6875rem;
+    }
+
+    .blue a {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    /* Footer navigation */
+
+    div .footer-top {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .ultimate-list a {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    .u-div .ultimate-text {
+        color: var(--light30);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+    } 
+}
+
+@media screen and (max-width: 768px) {
     :root {
         font-size: 8px;
     }
 
+    /* Principal top */
+
     .content-top {
-        inline-size: 70rem !important;
+        padding: 0 !important;
+        block-size: 6rem !important;
+    }
+
+    .banner {
+        block-size: 6rem;
+    }
+
+    .logo {
+        inline-size: 17rem !important;
+        block-size: 6.4rem !important;
+        margin-left: -7rem;
+        margin-top: 1rem;
+    }
+    
+    .banner-logo {
+        display: flex;
+        align-items: center;
     }
 
     .list-content {
-        display: none !important; 
+        display: none !important;
     }
 
-    div .toggle {
-        display: block;
-        padding-left: 45rem;
-        cursor: pointer;
+    .toggle {
+        display: inline-block !important;
+        margin-left: 70rem;
     }
 
-    .banner-logo {
-        display: flex;
-        margin-left: 6rem;
-    }
+    /* Section */
 
-    .large-content{
-        inline-size: fit-content;
-    }
-
-    .content-inter {
-        flex-direction: row;
-    }
-
-    .cont-principal {
-        margin-top: 2rem;
-    }
-    .elements {
-        flex-direction: column;
-        height: 12rem;
-    }
-
-    .elements-link {
-        padding-bottom: 1rem;
-    }
-    .elements-button {
-        padding-top: .5rem;
-    }
-
-    .mini-about_involved {
-        block-size: 30rem;
-    }
-
-    .mini-content {
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-
-    .mini-content .box {
-        margin: 2rem 0;
-    }
-
-    .content-column {
-        text-align: center;
-        block-size: 116rem;
-    }
-    .information-row .position-dual {
-        flex-direction: column;
-    } 
-
-    .position-dual .box-1 {
-        margin: 1rem;
-    }
-
-    .odd .all-text_apart {
-        padding: 1.8rem 0;
-    }
-
-    .pair .all-text {
-        padding: 1.8rem 0;
-    }
-
-    .all-text_apart .dual{
-        padding: 0;
-    }
-
-    .pair {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .odd {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .large-content {
-        block-size: 250rem;
-    }
-
-    .light-girl {
-        block-size: 80rem;
-    }
-    
-    .three-div {
-        flex-wrap: wrap;
-    }
-
-    .duo {
-        margin-top: 24.625rem;
-    }
-
-    .content-center {
-        padding-top: 25rem;
-        inline-size: auto;
-    }
-
-    .duo {
-        flex-direction: column;
-        margin: 3rem auto;
-        justify-content: space-evenly; 
-    }
-    
-    .gray a {
-        padding: 0;
-    }
-
-    .blue a {
-        margin: 0;
-    }
-
-    .blend-dev 
-    .information-row {
-        display: flex;
-        align-items: center;
-    }
-
-    .content-column {
-        block-size: auto;
-    }
-
-    .top-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .three-div {
-        justify-content: center;
-    }
-
-    .footer-navigation {
-        block-size: auto;
-    }
-
-    .principal-navigation {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-duo div {
-        padding: 2rem;
-    }
-
-    .footer-duo_left {
-        padding-left: 4.8rem;
-    }
-
-    div .duo-content {
-        margin: 0;
-        padding: 1rem;
-    }
-
-    .u-div {
-        padding: 1rem 0 0;
-    }
-
-}
-
-@media screen and (max-width: 645px) {
-    :root {
-        font-size: 6px;
-    }
     .section {
-        margin-top: 3.2rem;
+        block-size: 40rem !important;
     }
 
-    .large-content{
-        inline-size: fit-content;
-    }
-
-    .content-inter {
-        flex-direction: row;
-    }
-
-    .cont-principal {
-        margin-top: 2rem;
-    }
-    .elements {
-        flex-direction: column;
-        height: 12rem;
-    }
-
-    .elements-link {
-        padding-bottom: 1rem;
-    }
-    .elements-button {
-        padding-top: .5rem;
-    }
-
-    .mini-about_involved {
-        block-size: 30rem;
-    }
-
-    .mini-content {
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-
-    .mini-content .box {
-        margin: 2rem 0;
-    }
-
-    .content-column {
-        text-align: center;
-        block-size: 116rem;
-    }
-    .information-row .position-dual {
-        flex-direction: column;
-    } 
-
-    .position-dual .box-1 {
-        margin: 1rem;
-    }
-
-    .odd .all-text_apart {
-        padding: 1.8rem 0;
-    }
-
-    .pair .all-text {
-        padding: 1.8rem 0;
-    }
-
-    .all-text_apart .dual{
-        padding: 0;
-    }
-
-    .pair {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .odd {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .large-content {
-        block-size: 250rem;
-    }
-
-    .light-girl {
-        block-size: 80rem;
-    }
-    
-    .three-div {
-        flex-wrap: wrap;
-    }
-
-    .duo {
-        margin-top: 24.625rem;
-    }
-
-    .content-center {
-        padding-top: 25rem;
-        inline-size: auto;
-    }
-
-    .duo {
-        flex-direction: column;
-        margin: 3rem auto;
-        justify-content: space-evenly; 
-    }
-    
-    .gray a {
-        padding: 0;
-    }
-
-    .blue a {
+    .content-list {
         margin: 0;
     }
 
-    .blend-dev 
-    .information-row {
-        display: flex;
+     span .cont-secundary {
+        margin-top: 15rem;
+        margin-bottom: 1rem;
+        padding: 1rem 1.3rem;
+    }
+
+    .cont-secundary a {
+        font-size: 5rem !important; 
+    }
+
+    .cont-secundary-1 a {
+        font-size: 2.3rem !important;
+    }
+
+    /* Download */
+
+    .elements {
+        block-size: 11rem !important;
+    }
+    
+    .elements-link a {
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 4rem;
+    } 
+
+    .elements-button a {
+        padding: 1.8rem 5rem;
+        margin: 0 3rem;
+        font-size: 1.9rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    /* About - Involved */
+
+    .mini-about_involved {
+        block-size: 35rem;
         align-items: center;
-    }
-
-    .content-column {
-        block-size: auto;
-    }
-
-    .top-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .three-div {
         justify-content: center;
     }
 
+    .mini-content {
+        margin: 0;
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    .box {
+        inline-size: 43rem;
+        block-size: 31rem;
+        margin: 0 -7rem;
+    }
+
+    .box a {
+        font-size: 3.4rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    .box p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 2.3rem;
+    }
+
+    .box div a {
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    /* Big content*/
+    .information-row {
+        flex-direction: column;
+    }
+
+    .position-dual {
+        justify-content: center;
+        margin: 0 -10rem;
+    }
+
+    .div-tittle {
+        margin-bottom: 4rem;
+    }
+
+    .blend-dev .tittle {
+        margin-left: -10rem;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+    }
+
+    .information-row div img {
+        border-radius: 3rem 3rem 0 0;
+        block-size: 26rem;
+    }
+
+
+    .box-1 {
+        inline-size: 60rem;
+        block-size: 47rem;
+        margin-right: 2rem !important;
+        margin-bottom: 2rem !important;
+        border-radius: 3rem;
+    }
+
+    .box-1 .mini-h2 {
+        font-weight: 600;
+        line-height: 2.3rem;
+        font-size: 2.5rem;
+    }
+
+    .box-1 .text-middle{
+        font-weight: 400;
+        line-height: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .box-1 .read {
+        font-weight: 700;
+        line-height: 1.7rem;
+        font-size: 1.8rem;
+    }
+
+
+    /* large-content */
+
+    .alone-top a {
+        font-size: 4.5rem;
+    }
+
+    .pair{
+        margin: 0 -6rem;
+        margin-top: 7rem;
+    }
+    
+    .odd {
+        margin: 0 -6rem;
+        margin-top: 7rem;
+    }
+
+    .principal-tittle {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 4.6rem;
+    }
+    .sub-tittle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .large-list li {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+    }
+
+    .side-image img {
+        inline-size: 40rem;
+        block-size: 25rem
+    }
+
+    /* Center blue */
+
+    .paintings {
+        block-size: 70rem;
+    }
+
+    .title-top {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 6rem;
+    }
+
+    .text-middle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+
+    .dual-link .unic {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+
+    .dual-link .unic-1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 5rem;
+    }
+
+    /* Girl-content */ 
+
+    .top-left {
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
+
+    .top-tittle {
+        font-size: 3.4rem !important;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    .mini-top .sub-tittle {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    div .top-text {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    div .top-text-1 {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }   
+
+    .text-alone li {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    .text-alone .right {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    div .subscribe {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+    }
+
+    .three-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .three-div .box3 {
+        margin: 2rem 0.625rem 3rem;
+        border-radius: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 3.8rem;
+        inline-size: 30rem;
+        block-size: auto;
+    }
+
+    .box3 h3 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 1.9rem;
+        margin-bottom: .5rem;
+        
+    }
+
+    .box3 p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin: .5rem;
+    }
+
+    .box3 a {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1rem;
+    }
+
+    /* Small content */
+
+    .duo {
+        inline-size: auto;
+        block-size: 16rem;
+    }
+
+    .gray a {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.6875rem;
+    }
+
+    .blue a {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    /* Footer navigation */
+
     .footer-navigation {
+        inline-size: auto;
         block-size: auto;
     }
 
     .principal-navigation {
         flex-direction: column;
-        align-items: center;
+        inline-size: 78.5rem;
+        block-size: 45rem;
+        justify-content: space-around;
     }
 
-    .footer-duo div {
-        padding: 2rem;
+    .footer-duo {
+        justify-content: space-between;
     }
 
     .footer-duo_left {
-        padding-left: 4.8rem;
+        justify-content: space-between;
     }
 
-    div .duo-content {
-        margin: 0;
-        padding: 1rem;
+    div .footer-top {
+        font-size: 2.3rem;
+        font-weight: 400;
+        line-height: 3.5rem;
     }
 
-    .u-div {
-        padding: 1rem 0 0;
+    .duo-final {
+        font-size: 2rem !important;
+        font-weight: 400;
+        line-height: 1.5rem;
     }
 
+    .ultimate-list a {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .u-div .ultimate-text {
+        color: var(--light30);
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+    }
+    
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 375px) {
     :root {
         font-size: 4px;
     }
-    .section {
-        margin-top: 3.2rem;
+
+    /* Principal top */
+    .banner {
+        block-size: 12rem;
     }
 
-    .large-content{
-        inline-size: fit-content;
+    .content-top {
+        padding: 0 !important;
+        block-size: 11rem !important;
     }
 
-    .content-inter {
-        flex-direction: row;
+
+    .logo {
+        inline-size: 53rem !important;
+        block-size: 10.5rem !important;
+        margin-left: -7rem;
+        margin-top: 1rem;
+    }
+    
+    .banner-logo {
+        display: flex;
+        align-items: center;
     }
 
-    .cont-principal {
+    .list-content {
+        display: none !important;
+    }
+
+    .toggle {
+        display: inline-block !important;
+        margin-left: 25rem;
         margin-top: 2rem;
-    }
-    .elements {
-        flex-direction: column;
-        height: 12rem;
+        font-size: 4.5rem !important;
     }
 
-    .elements-link {
-        padding-bottom: 1rem;
-    }
-    .elements-button {
-        padding-top: .5rem;
+    /* Section */
+
+    .section {
+        block-size: 80rem !important;
     }
 
-    .mini-about_involved {
-        block-size: 30rem;
-    }
-
-    .mini-content {
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-
-    .mini-content .box {
-        margin: 2rem 0;
-    }
-
-    .content-column {
-        text-align: center;
-        block-size: 116rem;
-    }
-    .information-row .position-dual {
-        flex-direction: column;
-    } 
-
-    .position-dual .box-1 {
-        margin: 1rem;
-    }
-
-    .odd .all-text_apart {
-        padding: 1.8rem 0;
-    }
-
-    .pair .all-text {
-        padding: 1.8rem 0;
-    }
-
-    .all-text_apart .dual{
-        padding: 0;
-    }
-
-    .pair {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .odd {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .large-content {
-        block-size: 250rem;
-    }
-
-    .light-girl {
-        block-size: 80rem;
-    }
-    
-    .three-div {
-        flex-wrap: wrap;
-    }
-
-    .duo {
-        margin-top: 24.625rem;
-    }
-
-    .content-center {
-        padding-top: 25rem;
-        inline-size: auto;
-    }
-
-    .duo {
-        flex-direction: column;
-        margin: 3rem auto;
-        justify-content: space-evenly; 
-    }
-    
-    .gray a {
-        padding: 0;
-    }
-
-    .blue a {
+    .content-list {
         margin: 0;
     }
 
-    .blend-dev 
-    .information-row {
-        display: flex;
-        align-items: center;
+     span .cont-secundary {
+        margin-top: 30rem;
+        margin-bottom: 1.7rem;
+        padding: 4.7rem 1.7rem;
     }
 
-    .content-column {
+    .cont-secundary a {
+        font-size: 8rem !important; 
+        line-height: 4rem !important;
+    }
+
+    .cont-secundary-1 a {
+        font-size: 3.7rem !important;
+        line-height: 6rem !important;
+    }
+
+    /* Download */
+
+    .elements {
+        block-size: 35rem !important;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+    .elements-link a {
+        font-size: 4.3rem;
+        font-weight: 400;
+        line-height: 7rem;
+    } 
+
+    .elements-button a {
+        padding: 1.8rem 5rem;
+        margin: 0 3rem;
+        font-size: 3.3rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    /* About - Involved */
+
+    .mini-about_involved {
         block-size: auto;
+        align-items: center;
+        justify-content: center;
     }
 
-    .top-left {
+    .mini-content {
+        margin: 0;
         display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+
+    .box {
+        inline-size: 80rem;
+        block-size: 70rem;
+        margin: 2rem 0;
+        border-radius: 3rem;
+    }
+
+    .box a {
+        font-size: 6rem;
+        font-weight: 500;
+        line-height: 5.5rem;
+    }
+
+    .box p {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4.5rem;
+    }
+
+    .box div a {
+        font-size: 3.3rem;
+        font-weight: 400;
+        line-height: 5rem;
+    }
+
+    /* Big content*/
+    .information-row {
+        flex-direction: column;
+    }
+
+    .position-dual {
+        justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
-    .three-div {
-        justify-content: center;
+    .div-tittle {
+        margin-bottom: 15rem;
     }
 
+    .blend-dev .tittle {
+        font-size: 6rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    .information-row div img {
+        border-radius: 3rem 3rem 0 0;
+        block-size: 52rem;
+    }
+
+
+    .box-1 {
+        inline-size: 87rem;
+        block-size: 87rem;
+        margin-right: 2rem !important;
+        margin-bottom: 5rem !important;
+        border-radius: 3rem;
+    }
+
+    .box-1 .mini-h2 {
+        font-weight: 600;
+        line-height: 4.5rem;
+        font-size: 4.8rem;
+    }
+
+    .box-1 .text-middle{
+        font-weight: 400;
+        line-height: 3.8rem;
+        font-size: 3.3rem;
+    }
+
+    .box-1 .read {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+
+    /* large-content */
+
+    .alone-top a {
+        font-size: 8rem;
+    }
+
+    .pair{
+        margin: 0 4rem;
+        margin-top: 6rem;
+        flex-direction: column;
+    }
+    
+    .odd {
+        margin: 0 4rem;
+        margin-top: 6rem;
+        flex-direction: column;
+    }
+
+    .principal-tittle {
+        font-size: 6rem;
+        font-weight: 400;
+        line-height: 8rem;
+    }
+    .sub-tittle {
+        font-size: 3.8rem;
+        font-weight: 400;
+        line-height: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .large-list li {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+    .side-image img {
+        inline-size: 80rem;
+        block-size: 40rem
+    }
+
+    /* Center blue */
+
+    .paintings {
+        block-size: 100rem;
+    }
+
+    .title-top {
+        font-size: 7rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+    .center-blue {
+        margin: 0 9rem;
+        text-align: left;
+    }
+
+    .text-middle {
+        font-size: 3.3rem;
+        font-weight: 400;
+        line-height: 4.2rem;
+    }
+
+    .dual-link .unic {
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 9rem;
+        padding: 1.1rem 20rem;
+    }
+
+    .dual-link .unic-1 {
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 9rem;
+        padding: 1.1rem 17rem;
+    }
+
+    /* Girl-content */ 
+
+    .top-left {
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
+
+    .top-tittle {
+        font-size: 8rem !important;
+        font-weight: 400;
+        line-height: 9rem !important;
+    }
+
+    .mini-top .sub-tittle {
+        font-size: 3.4rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+    div .top-text {
+        font-size: 3.4rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+    div .top-text-1 {
+        font-size: 3.4rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }   
+
+    .text-alone li {
+        font-size: 3.4rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+    .text-alone .right {
+        font-size: 3.4rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+    div .subscribe {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 6rem;
+        padding: 1.1rem 20rem;
+    }
+
+    .three-div {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .three-div .box3 {
+        margin: 2rem 0.625rem 3rem;
+        border-radius: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 3.8rem;
+        inline-size: 67rem;
+        block-size: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 3rem;
+    }
+
+    .box3 h3 {
+        font-size: 5rem;
+        font-weight: 600;
+        line-height: 1.9rem;
+        margin-bottom: .5rem;
+        margin: .5rem;
+        
+    }
+
+    .box3 p {
+        font-size: 2.7rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+        margin: .5rem;
+    }
+
+    .box3 a {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1rem;
+    }
+
+    /* Small content */
+
+    .duo {
+        inline-size: auto;
+        block-size: 40rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .gray a {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 1.6875rem;
+    }
+
+    .blue a {
+        font-size: 3.6  rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        padding: 1.8rem 15rem;
+        border-radius: 2rem;
+    }
+
+    /* Footer navigation */
+
     .footer-navigation {
+        inline-size: auto;
         block-size: auto;
     }
 
     .principal-navigation {
         flex-direction: column;
-        align-items: center;
+        inline-size: 78.5rem;
+        block-size: 130rem;
+        justify-content: space-around;
     }
 
-    .footer-duo div {
-        padding: 2rem;
+    .footer-duo {
+        justify-content: space-between;
     }
 
     .footer-duo_left {
-        padding-left: 4.8rem;
+        justify-content: space-between;
     }
 
-    div .duo-content {
-        margin: 0;
-        padding: 1rem;
+    div .footer-top {
+        font-size: 3.8rem;
+        font-weight: 400;
+        line-height: 8rem;
     }
 
-    .u-div {
-        padding: 1rem 0 0;
+    .ultimate-list a {
+        font-size: 3.2rem ;
+        font-weight: 400;
+        line-height: 4rem;
     }
 
+    .duo-final {
+        font-size: 3.2rem !important;
+        font-weight: 400;
+        line-height: 7rem !important;
+    }
+
+
+    .u-div .ultimate-text {
+        color: var(--light30);
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+    }
+    
 }
 
 .content-top {
     inline-size: 78.5rem;
     block-size: 3.40rem;
-    margin: auto;
-}
-
-.content-inter {
-    padding: 0 0.9375rem;
-    margin: 0 1.875rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 3rem;
+    margin: 0 auto;
 }
 
 .logo{
@@ -676,33 +1190,32 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    block-size: 4rem;
-    margin-right: auto;
-    transition: opacity 150ms ease-in-out;
-    width: 9rem;
+    inline-size: 8.25rem;
+    block-size: 2.5rem;
 }
 
 .list-content {
     display: flex;
-    font-size: .9rem;    
-    font-weight: 400;
 }
 
 .list-content li{
     list-style: none;
 }
 
-.list-content li a{
+.list-content .list-item .nav-list{
     text-decoration: none;
-    padding: 20px 16px;
+    padding: 1.25rem 1rem;
     color: var(--gray10);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 0.875rem;
     
 }
 
 .list-content .list-item .nav-list:hover {
     color: var(--primary);
     transition: 0.1s;
-    border-bottom: 3px var(--primary) solid;
+    border-bottom: 0.1200rem var(--primary) solid;
 }
 
 .list-content_unic 
@@ -710,15 +1223,15 @@
     background-color: transparent;
     border: none;
     border-radius: .3rem;
-    -webkit-box-shadow: inset 0 0 0 2px #fff;
-    box-shadow: inset 0 0 0 2px #fff;
+    -webkit-box-shadow: inset 0 0 0 0.125rem #fff;
+    box-shadow: inset 0 0 0 0.125rem #fff;
     color: #fff;
     text-decoration: none;
     padding: 0.3rem 1.25rem;
     white-space: nowrap;
     background-color: #13b6fb;
-    -webkit-box-shadow: 0 4px 0 0 #04a7eb;
-    box-shadow: 0 4px 0 0 #04a7eb;
+    -webkit-box-shadow: 0 0.25rem 0 0 #04a7eb;
+    box-shadow: 0 0.25rem 0 0 #04a7eb;
 }
 
 .list-content_unic 
@@ -733,11 +1246,10 @@
 }
 
 .toggle {
-    color: black;
+    color: var(--gray10);
     background: none;
     border: none;
-    font-size: 1.875rem;
-    padding: 0 1.25rem;
+    font-size: 2.5rem;
     line-height: 3.75rem;
     display: none;
 }
