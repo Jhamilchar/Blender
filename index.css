@@ -357,9 +357,703 @@
     } 
 }
 
+@media screen and (max-width: 860px) {
+    :root {
+        font-size: 10px;
+    }
+
+    .banner {
+        block-size: 4.5rem;
+    }
+
+    .content-top {
+        block-size: 4.5em !important;
+        padding: 0 2rem !important;
+    }
+
+    .logo {
+        inline-size: 12rem !important;
+        block-size:3.3rem !important;
+    }
+
+    .list-item .nav-list {
+        padding: 1.4rem 1.2rem !important;
+        font-size: 1.2rem !important;
+        font-weight: 400 !important;
+        line-height: 1.1rem !important;
+    }
+
+    .list-item_unic .item-unic {
+        padding: 0.8rem 3rem !important;
+    }
+
+    .content-list {
+        block-size: 20rem;
+    }
+
+     span .cont-secundary {
+        margin-top: 6rem;
+    }
+
+    .cont-secundary a {
+        font-size: 3.8rem !important;   
+    }
+
+    .cont-secundary-1 a {
+        font-size: 1.5rem !important;
+    }
+
+    .elements {
+        block-size: 6rem !important;
+    }
+    
+    .elements-link a {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1rem;
+    } 
+
+    .elements-button a {
+        padding: .9rem 3rem;
+        margin: 0 3.6rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    .mini-about_involved {
+        block-size: 26rem;
+    }
+
+    .mini-content {
+        justify-content: space-between;
+    }
+
+    .box {
+        inline-size: 35.7rem;
+        block-size: 22rem;
+    }
+
+    .box a {
+        font-size: 2.3rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    .box p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    .box div a {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    .box-1 {
+        inline-size: 19rem;
+        block-size: 25rem;
+    }
+
+    .information-row div img {
+        block-size: 11rem;
+    }
+
+    .blend-dev .tittle {
+        margin-left: -3.8rem;
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+    }
+
+    .box-1 .mini-h2 {
+        font-weight: 600;
+        line-height: 1.7rem;
+        font-size: 1.7rem;
+    }
+
+    .box-1 .text-middle{
+        font-weight: 400;
+        line-height: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .box-1 .read {
+        font-weight: 700;
+        line-height: 1.7rem;
+        font-size: .1.2rem;
+    }
+
+
+    /* large-content */
+
+    .alone-top a {
+        font-size: 3rem;
+    }
+
+    .principal-tittle {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+    .sub-tittle {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .large-list li {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .side-image img {
+        inline-size: 37rem;
+        block-size: 23rem
+    }
+
+    /* Center blue */
+
+    .paintings {
+        block-size: 40rem;
+    }
+
+    .title-top {
+        font-size: 2.8rem;
+        font-weight: 400;
+        line-height: 3.8rem;
+    }
+
+    .text-middle {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .dual-link .unic {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.375rem;
+    }
+
+    .dual-link .unic-1 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.375rem;
+    }
+
+    /* Girl-content */ 
+
+    .top-left {
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
+
+    .mini-top a {
+        font-size: 2.7rem;
+        font-weight: 400;
+        line-height: 3.7rem;
+    }
+
+    .mini-top .sub-tittle {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    div .top-text {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    div .top-text-1 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }   
+
+    .text-alone li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .text-alone .right {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    div .subscribe {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+    }
+
+    .three-div .box3 {
+        margin: 2rem 0.625rem 3rem;
+        border-radius: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 3.8rem;
+    }
+
+    .box3 h3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.9rem;
+    }
+
+    .box3 p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    .box3 a {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.2rem;
+    }
+
+    /* Small content */
+
+    .gray a {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.6875rem;
+    }
+
+    .blue a {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    /* Footer navigation */
+
+    div .footer-top {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .ultimate-list a {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    .u-div .ultimate-text {
+        color: var(--light30);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+    } 
+}
+
 @media screen and (max-width: 768px) {
     :root {
         font-size: 8px;
+    }
+
+    /* Principal top */
+
+    .content-top {
+        padding: 0 !important;
+        block-size: 6rem !important;
+    }
+
+    .banner {
+        block-size: 6rem;
+    }
+
+    .logo {
+        inline-size: 17rem !important;
+        block-size: 6.4rem !important;
+        margin-left: -7rem;
+        margin-top: 1rem;
+    }
+    
+    .banner-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-content {
+        display: none !important;
+    }
+
+    .toggle {
+        display: inline-block !important;
+        margin-left: 70rem;
+    }
+
+    /* Section */
+
+    .section {
+        block-size: 40rem !important;
+    }
+
+    .content-list {
+        margin: 0;
+    }
+
+     span .cont-secundary {
+        margin-top: 15rem;
+        margin-bottom: 1rem;
+        padding: 1rem 1.3rem;
+    }
+
+    .cont-secundary a {
+        font-size: 5rem !important; 
+    }
+
+    .cont-secundary-1 a {
+        font-size: 2.3rem !important;
+    }
+
+    /* Download */
+
+    .elements {
+        block-size: 11rem !important;
+    }
+    
+    .elements-link a {
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 4rem;
+    } 
+
+    .elements-button a {
+        padding: 1.8rem 5rem;
+        margin: 0 3rem;
+        font-size: 1.9rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    /* About - Involved */
+
+    .mini-about_involved {
+        block-size: 35rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mini-content {
+        margin: 0;
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    .box {
+        inline-size: 43rem;
+        block-size: 31rem;
+        margin: 0 -7rem;
+    }
+
+    .box a {
+        font-size: 3.4rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    .box p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 2.3rem;
+    }
+
+    .box div a {
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    /* Big content*/
+    .information-row {
+        flex-direction: column;
+    }
+
+    .position-dual {
+        justify-content: center;
+        margin: 0 -10rem;
+    }
+
+    .div-tittle {
+        margin-bottom: 4rem;
+    }
+
+    .blend-dev .tittle {
+        margin-left: -10rem;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+    }
+
+    .information-row div img {
+        border-radius: 3rem 3rem 0 0;
+        block-size: 26rem;
+    }
+
+
+    .box-1 {
+        inline-size: 60rem;
+        block-size: 47rem;
+        margin-right: 2rem !important;
+        margin-bottom: 2rem !important;
+        border-radius: 3rem;
+    }
+
+    .box-1 .mini-h2 {
+        font-weight: 600;
+        line-height: 2.3rem;
+        font-size: 2.5rem;
+    }
+
+    .box-1 .text-middle{
+        font-weight: 400;
+        line-height: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .box-1 .read {
+        font-weight: 700;
+        line-height: 1.7rem;
+        font-size: 1.8rem;
+    }
+
+
+    /* large-content */
+
+    .alone-top a {
+        font-size: 4.5rem;
+    }
+
+    .pair{
+        margin: 0 -6rem;
+        margin-top: 7rem;
+    }
+    
+    .odd {
+        margin: 0 -6rem;
+        margin-top: 7rem;
+    }
+
+    .principal-tittle {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 4.6rem;
+    }
+    .sub-tittle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .large-list li {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+    }
+
+    .side-image img {
+        inline-size: 40rem;
+        block-size: 25rem
+    }
+
+    /* Center blue */
+
+    .paintings {
+        block-size: 70rem;
+    }
+
+    .title-top {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 6rem;
+    }
+
+    .text-middle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+
+    .dual-link .unic {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+
+    .dual-link .unic-1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 5rem;
+    }
+
+    /* Girl-content */ 
+
+    .top-left {
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
+
+    .top-tittle {
+        font-size: 3.4rem !important;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    .mini-top .sub-tittle {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    div .top-text {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    div .top-text-1 {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }   
+
+    .text-alone li {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    .text-alone .right {
+        font-size: 2.1rem;
+        font-weight: 400;
+        line-height: 4rem;
+    }
+
+    div .subscribe {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+    }
+
+    .three-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .three-div .box3 {
+        margin: 2rem 0.625rem 3rem;
+        border-radius: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 3.8rem;
+        inline-size: 30rem;
+        block-size: auto;
+    }
+
+    .box3 h3 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 1.9rem;
+        margin-bottom: .5rem;
+        
+    }
+
+    .box3 p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin: .5rem;
+    }
+
+    .box3 a {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1rem;
+    }
+
+    /* Small content */
+
+    .duo {
+        inline-size: auto;
+        block-size: 16rem;
+    }
+
+    .gray a {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.6875rem;
+    }
+
+    .blue a {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    /* Footer navigation */
+
+    .footer-navigation {
+        inline-size: auto;
+        block-size: auto;
+    }
+
+    .principal-navigation {
+        flex-direction: column;
+        inline-size: 78.5rem;
+        block-size: 45rem;
+        justify-content: space-around;
+    }
+
+    .footer-duo {
+        justify-content: space-between;
+    }
+
+    .footer-duo_left {
+        justify-content: space-between;
+    }
+
+    div .footer-top {
+        font-size: 2.3rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+    }
+
+    .duo-final {
+        font-size: 2rem !important;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    .ultimate-list a {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .u-div .ultimate-text {
+        color: var(--light30);
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+    }
+    
+}
+
+@media screen and (min-width: 730px) {
+    :root {
+        font-size: 7px;
     }
 
     /* Principal top */
